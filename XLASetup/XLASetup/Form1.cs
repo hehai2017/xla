@@ -149,7 +149,7 @@ namespace XLASetup
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                //MessageBox.Show(ex.Message);
                 // IE浏览器路径安装：C:\Program Files\Internet Explorer
                 // at System.Diagnostics.process.StartWithshellExecuteEx(ProcessStartInfo startInfo)注意这个错误
                 try
