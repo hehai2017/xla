@@ -299,7 +299,7 @@ namespace XLASetup
         private void reloadToolStripMenuItem_Click(object sender, EventArgs e)
         {
             KillFirefox();
-            Thread.Sleep(1000);
+            Thread.Sleep(500);
             LoadMainPage();
         }
 
